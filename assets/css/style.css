@@ -1,0 +1,140 @@
+
+.bgg{
+   
+    background-image:url("../img/bgbootstrap.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#ptag1{
+    margin-top: 100px !important;
+}
+#col:hover{
+ border: 1px solid rgb(214, 94, 214);
+ box-shadow: 2px 2px 3px 3px silver;
+}
+#back1{
+    background-image:url(../img/banner2.jpeg) ;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    /* overflow: hidden; */
+
+
+
+}
+#back2{
+    background-image:url(../img/banner1.jpeg) ;
+    background-repeat: no-repeat;
+    /* background-size: 100px 100px; */
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+#back2:hover,#back1:hover{
+    transform: scale(1.1);
+    transition-duration: 3s;
+    border-radius: 20px;
+
+}
+#bad{
+    overflow: hidden;
+}
+.card:hover>img{
+    transform: scale(1.1);
+    transition-duration: 3s;
+
+}
+
+.card{
+    overflow: hidden;
+}
+.card:hover>.card-body>p{
+ color: rgb(214, 94, 214);
+}
+.card:hover{
+    border: 1px solid rgb(214, 94, 214);
+}
+#coffeebg{
+background-image:url(../img/bgcoffee.jpg) ;
+cursor: pointer;
+color: white;
+background-size: cover;
+border-radius: 10px;
+height: 400px;
+}
+
+#footer{
+    background-color: rgb(216, 215, 215);
+    margin-top: 100px;
+}
+.minifooter1{
+    color: rgb(130, 130, 133);
+    line-height: 12px;
+}
+.minifooter1>p:hover{
+ color: rgb(214, 94, 214);
+ cursor: pointer;
+}
+.minifooter2{
+    color: rgb(130, 130, 133);
+    line-height: 12px;
+    margin-top: 37px;
+}
+.minifooter2>p:hover{
+ color: rgb(214, 94, 214);
+ cursor: pointer;
+}
+.minifooter3{
+    color: rgb(130, 130, 133);
+    line-height: 12px;
+}
+.minifooter3>p:hover{
+ color:  rgb(214, 94, 214) ;
+ cursor: pointer;
+}
+.minifooter4{
+    color: rgb(130, 130, 133);
+    line-height: 12px;
+}
+.minifooter4>p:hover{
+ color: rgb(214, 94, 214);
+ cursor: pointer;
+}
+.minifooter5{
+    color: rgb(130, 130, 133);
+    line-height: 12px;
+}
+.minifooter5>p:hover{
+ color: rgb(214, 94, 214);
+ cursor: pointer;
+}
+.minifooter6{
+    color: rgb(130, 130, 133);
+    line-height: 12px;
+}
+.minifooter6>p:hover{
+ color: rgb(214, 94, 214);
+ cursor: pointer;
+}
+#fleximg>img:hover{
+    cursor: pointer;
+}
+#flexicones>i{
+    border: 1px solid rgb(145, 139, 139);
+    padding: 3px 6px 3px 6px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#flexicones>i:hover{
+    border: 1px solid rgb(214, 94, 214);
+    color: rgb(214, 94, 214);
+  
+    
+}
